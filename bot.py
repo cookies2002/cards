@@ -9,10 +9,10 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 # === CONFIG ===
-API_ID = 123456
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
-MONGO_URI = "mongodb://localhost:27017/"
+API_ID = 24977986
+API_HASH = "abc6095228862c7502397c928bd7999e"
+BOT_TOKEN = "8382535043:AAFRZsmxNqzk0I6QXYF6Qb2SQPjUUbBO9Lo"
+MONGO_URI = "mongodb+srv://xarwin2:xarwin2002@cluster0.qmetx2m.mongodb.net/?retryWrites=true&w=majority"
 
 # === INIT ===
 client = Client("card_game_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
